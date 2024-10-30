@@ -1,0 +1,81 @@
+.hs-city-temp-wrapper  {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-width: thin;
+	border-style: solid;
+}
+.hs-city-temp-header {
+	background: #333; 
+	transition: background 0.5s ease-in; 
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5); 
+    color: #fff;
+    text-align: center;
+    clear: both;
+}
+.hs-city-temp-current-temp-city {
+    padding: 1px;
+	float: left;
+	line-height: 2em;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: center;
+	width:100%;
+}
+.hs-city-temp-current-weather {
+    padding: 1px;
+	float: left;
+	line-height: 2em;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: center;
+	width:100%;
+}
+.hs-city-temp-forecast-label {
+	padding: 1px;
+	float: left;
+	line-height: 2em;
+	font-weight: 300;
+	white-space: nowrap;
+	width:25%;
+}
+.hs-city-temp-other-city {
+	padding: 1px;
+	float: left;
+	line-height: 2em;
+	font-weight: 300;
+	white-space: nowrap;
+	width:50%;
+}
+.hs-city-temp-other-city-temp {
+	padding: 1px;
+	float: left;
+	line-height: 2em;
+	font-weight: 300;
+	white-space: nowrap;
+	width:15%;
+}
+.hs-city-temp-other-city-weather {
+	padding: 1px;
+	float: left;
+	line-height: 2em;
+	font-weight: 300;
+	white-space: nowrap;
+    text-align: center;
+	width:15%;
+}
+.hs-city-temp-three-day-temp {
+    padding: 1px;
+	float: left;
+	line-height: 1em;
+	font-size: smaller;
+	white-space: nowrap;
+    text-align: center;
+    width:20%;
+}
+.hs-city-temp-home-temp {
+	font-size:x-large;
+}
+.hs-city-temp-city-name {
+	font-size:large;
+}
